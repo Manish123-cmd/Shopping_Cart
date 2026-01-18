@@ -18,6 +18,7 @@ updateTotal();
 
 products.forEach(function (product) {
     const div = document.createElement("div");
+    div.classList.add("product");
     const img = document.createElement("img");
     img.src = product.image;
     img.alt = product.title;
